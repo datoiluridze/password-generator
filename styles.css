@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#EAF6F6;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.container .card{
+    height:500px;
+    width:800px;
+    background-color:#282c34;
+    border-radius:12px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.container .card .password{
+    height:50px;
+    width:500px;
+    margin-top:5%;
+    border-radius:75px;
+    color:#FF0063;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:gilroy;
+    font-weight:600;
+    font-size:2rem;
+    letter-spacing:4px;
+    box-shadow: rgba(38, 38, 43, 0.3) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px inset;
+}
+.container .card  .incredecre{
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px inset;
+    height:50px;
+    width:100px;
+    margin-top:2%;
+    color:#FF0063;
+    font-family:poppins;
+    font-size:1.5rem;
+    justify-content: space-between;
+    padding-left:2%;
+    padding-right:2%;
+    cursor: pointer;
+}
+.container .card .text{
+    font-family: 'Source Code Pro', monospace;
+    color:white;
+    font-size:1.5rem;
+    margin-top:5%;
+}
+.container .card .button button{
+    height:50px;
+    width:150px;
+    border-radius:2px;
+    background-color:#FF0063;
+    font-family:Poppins;
+    letter-spacing:2px;
+    color:white;
+    border:none;
+    cursor: pointer;
+}
+.container .card .button{
+    margin-top:5%;
+}
+.container .card .icons{
+    margin-top:5%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.container .card .icons i{
+    font-size:1.5rem;
+    border:2px solid #FF0063;
+    color:#FF0063;
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:2%;
+    cursor: pointer;
+}
+.container .card .icons i:hover{
+    background-color:#FF0063;
+    color:white;
+    transition-duration:0.3s;
+}
+.container .card .footer{
+    font-family:poppins;
+    font-weight:lighter;
+    color:white;
+    font-size:0.9rem;
+    margin-top:3%;
+}
